@@ -5,3 +5,6 @@ curl -sSL https://rvm.io/mpapis.asc | gpg2 --import -
 
 # Install ruby
 curl -sSL https://get.rvm.io | bash -s stable --ruby
+
+# Remove the profile file that was created
+rm ~/.profile
